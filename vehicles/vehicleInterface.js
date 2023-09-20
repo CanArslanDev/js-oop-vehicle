@@ -1,13 +1,13 @@
 class VehicleInterface {
     start() {
         if (this.start === VehicleInterface.prototype.start) {
-            throw new Error("Subclasses must implement the start method.");
+            throw new Error("Alt sınıflarda start yöntemi kullanılmıyor.");
         }
     }
 
     stop() {
         if (this.stop === VehicleInterface.prototype.stop) {
-            throw new Error("Subclasses must implement the stop method.");
+            throw new Error("Alt sınıflarda stop yöntemi kullanılmıyor.");
         }
     }
 }
